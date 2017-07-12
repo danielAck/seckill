@@ -1,8 +1,9 @@
-package org.seckill.Service;
+package org.seckill.Service.impl;
 
 import org.seckill.Exception.RepeatSeckillException;
 import org.seckill.Exception.SeckillCloseExcepion;
 import org.seckill.Exception.SeckillException;
+import org.seckill.Service.SeckillService;
 import org.seckill.dao.SeckillDao;
 import org.seckill.dao.SuccessKilledDao;
 import org.seckill.dto.ExcutionTest;
